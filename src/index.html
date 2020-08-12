@@ -13,6 +13,26 @@
         <title>Natours | Exciting tours for adventurous people</title>
     </head>
     <body>
+
+        <div class="navigation">
+            <input class="navigation__checkbox" type="checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natours</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+                </ul>
+            </nav>
+        </div>
         <header class="header">
             <div class="header__logo-box">
                 <img class="header__logo" src="img/logo-white.png" alt="logo">
@@ -23,7 +43,7 @@
                 <span class="heading-primary--sub">is where life happens</span>   
             </h1>
 
-            <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+            <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
         </div>
 
 
@@ -63,7 +83,7 @@
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-world"></i>
                             <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
-                            <p class="faeture-box__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quos ab officiis officia</p>
+                            <p class="feature-box__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quos ab officiis officia</p>
                         </div>
                     </div>
 
@@ -71,7 +91,7 @@
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-compass"></i>
                             <h3 class="heading-tertiary u-margin-bottom-small">Meet nature</h3>
-                            <p class="faeture-box__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quos ab officiis officia</p>
+                            <p class="feature-box__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quos ab officiis officia</p>
                         </div>
                     </div>
 
@@ -79,7 +99,7 @@
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-map"></i>
                             <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
-                            <p class="faeture-box__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quos ab officiis officia</p>
+                            <p class="feature-box__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quos ab officiis officia</p>
                         </div>
                     </div>
 
@@ -87,7 +107,7 @@
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-heart"></i>
                             <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
-                            <p class="faeture-box__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quos ab officiis officia</p>
+                            <p class="feature-box__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quos ab officiis officia</p>
                         </div>
                     </div>
                 </div>
@@ -292,7 +312,7 @@
                                 </div>
 
                                 <div class="form__group">
-                                    <button class="btn btn--green">Next step &rarr;</button>
+                                    <button href="#" class="btn btn--green">Next step &rarr;</button>
                                 </div>
                             </form>
                         </div>
@@ -324,6 +344,25 @@
                 </div>
             </div>
         </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read this terms before booking</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit autem non dignissimos dolorum rem consequatur cupiditate error nemo dolorem, ullam incidunt reprehenderit eligendi veritatis dolores nisi modi praesentium possimus deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum consectetur natus eum beatae nostrum impedit cupiditate repudiandae saepe error id molestias minima, ex eveniet voluptatum alias sed aspernatur magni consequatur. 
+                    </p>
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div> 
+            </div>
+
+        </div>
     
 <!-- <section class="grid-test">
     <div class="row">
