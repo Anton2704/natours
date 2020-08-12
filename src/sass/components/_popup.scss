@@ -54,7 +54,7 @@
       width: 100%;
       @include respond(tab-land) {
         display: inline-block;
-        width: 49.5%;
+        width: 48.5%;
         
       }
   }
@@ -62,13 +62,15 @@
   &__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-
     column-count: 2;
     column-gap: 4rem;
     column-rule: 1px solid $color-grey-light-2;
-
-
     hyphens: auto;
+    @include respond(tab-land) {
+      font-size: 1rem;
+      column-gap: 2rem;
+      margin-bottom: 2rem;
+    }
   }
 
   &:target {
@@ -100,6 +102,12 @@
       text-decoration: none;
       display: inline-block;
       line-height: 1;
+
+      @include respond(tab-land) {
+        top: 1.5rem;
+        right: 1.5rem;
+        color: $color-black;
+        }
     }
     &:hover {
       color: $color-primary;
